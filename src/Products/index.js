@@ -34,7 +34,7 @@ const Products = ()=>{
         <br/>
         {products.map(item=>(
             <div key={item.id}>
-               <img id="images" src={item.images[0]}/>
+               <img id="images" src={item.images[0]}  alt=""/>
                 <h3>{item.title}</h3>
                 <p>Price:{item.price}</p>
                 <p>Discount:{item.discountPercentage}%</p>
