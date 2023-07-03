@@ -1,0 +1,29 @@
+.Products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10%;
+   
+
+    }
+    #images{
+        padding: 5px;
+        padding: 15px;
+        width: 250px;
+        height: 200px;
+        object-fit: cover;
+        border: solid 1px;
+        border-radius: 5%;
+        color: rgb(88, 6, 6);
+    }
+    #name{
+        font-size: 15px;
+    }
+    .product{
+        border: solid rgb(182, 177, 177) 1px;
+        text-align: center;
+        margin-top: 3%;
+        border-radius: 5px;
+        
+    
+    }
